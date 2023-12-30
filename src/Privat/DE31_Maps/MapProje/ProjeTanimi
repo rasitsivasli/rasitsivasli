@@ -1,0 +1,26 @@
+Bir telefon+adres rehberi yapalım,
+1- Adres adında bir  pojo class oluşturalım
+(alanlara kendiniz karar verin,ama en başata bir **"int id" alanı olsun)
+(örnek alanlar, ID, AD soyad, *tel , adres, eMail, ***statu=true)
+2- Dosyaya veri yazmak , okumak için bir FileHelper adında bir class oluşturalım
+bu class bir Interfile adında bir Interface implement etsin ve
+bu klasta kullanılacak metotlar interfaceden implement edilsin
+3- Islemler adında bir class olusturun, Veri ekleme,veri silme,
+   veri değiştirme,veriListeleme metotları burada olsun, bu class da bu metotaları
+   IslemlerInterface adlı bir Interface den implement etsin
+4- Runner class da menu olsun, ve işlemleri menu yardımı yapalım,
+variable ve metot adalrının seçimine azami özen gösterelim
+
+**
+id alanı , uniqe olsun (eşsiz), silme ve güncelleme buna göre olsun
+her veri eklendiğinde son ID den 1 fazlasını yeni ID olarak verin
+*
+tel nosu almanyaya göre doğru girilmesini kontrol edin
+*eMailin de doğruluğunu kontrol edin
+harf ile başlar, @ işsrti olur, @ işaretinden sonra . olur
+***
+statu alanı boolean olsun (bu nu isteyen yapsın)
+true ise kayit aktiftir, pasif ise kayıt silinmiştir
+bu alan kullanılırsa bir de silinmiş kayıtları listeleyeceğimiz bir metot olmalı
+
+

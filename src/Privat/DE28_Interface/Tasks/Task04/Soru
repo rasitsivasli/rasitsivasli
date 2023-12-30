@@ -1,0 +1,4 @@
+personel Interface ı yapın
+maas_hesapla metodu olsun(parametreleri, saat ucretı ve caslısma suresi)
+isci clası ve isadi personel classlarını bunu implement etsin
+runner class her iki classdan obje olusturup maas hesaplasın

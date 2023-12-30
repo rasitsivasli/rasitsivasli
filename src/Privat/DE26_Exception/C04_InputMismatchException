@@ -1,0 +1,11 @@
+package DE26_Exception;
+
+import java.util.Scanner;
+
+public class C04_InputMismatchException {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int sayi = scanner.nextInt(); // strin girilirse InputMismatchException
+    }
+}
+
